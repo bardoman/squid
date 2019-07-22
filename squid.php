@@ -24,4 +24,15 @@ echo "<br>";
 $Nxml=simplexml_load_string($xmlStr) or die("Error: Cannot create object");
 print_r($Nxml);
 
+echo "<br>";
+
+$Nxml=simplexml_load_file("./simple.xml") or die("Error: Cannot create object");
+
+echo $Nxml->to . "<br>";
+echo $Nxml->from . "<br>";
+echo $Nxml->heading . "<br>";
+echo $Nxml->body . "<br>";
+echo $Nxml->URL->A ;
+
+
 ?> 
