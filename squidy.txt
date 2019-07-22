@@ -1,0 +1,37 @@
+
+SQUIDZ model
+Use a net of nodes to create relations between URLs that have no internal links to each other.
+To model connections.
+This may be possible with only html.
+Perhaps a php database of SQUIDZ models stored away with dynamic code constructing pages on the fly.
+You would want to access it with a browser.
+Allow the user to update the model if they have authority.
+Perhaps use a git back end.
+
+Node ID,   URLs,                  links,    comment
+1          http://sdf.org1,...    2,3       idea1
+2          http://sdf.org2,...    3,4       idea2
+3          http://sdf.org3,...    4,5       idea3
+4          http://sdf.org4,...    5,6       idea4
+5          http://sdf.org5,...    6,7       idea5
+6          http://sdf.org6,...    7,8       idea6
+7          http://sdf.org7,...    8,9       idea7
+8          http://sdf.org8,...    1,5       idea8
+9          http://sdf.org9,...    6,4       idea9
+
+Number of possible links between nodes=> LinkCnt = n (n-1)/2
+(look at the simplex prj code)
+since nodes are ideas they can contain any number of external URLs
+For instance node 5 may have the comment "differential equ".
+The URL list may contain any set of URLs pointing to pertenant pages.
+
+One possible network of nodes:
+
+ 1  -   2  -   3
+ |      |      |
+ 4  -   5  -   6
+ |      |      |
+ 7  -   8  -   9
+
+Use the http://hyperphysics.phy-astr.gsu.edu/hbase/index.html as an example of how this might be done.
+However using external content.
