@@ -10,4 +10,18 @@ $myXMLData =
 
 $xml=simplexml_load_string($myXMLData) or die("Error: Cannot create object");
 print_r($xml);
+
+echo "<br>";
+
+echo file_exists("./simple.xml");
+
+$xmlStr=file_get_contents("./simple.xml");
+
+echo file_get_contents("./simple.xml");
+
+echo "<br>";
+
+$Nxml=simplexml_load_string($xmlStr) or die("Error: Cannot create object");
+print_r($Nxml);
+
 ?> 

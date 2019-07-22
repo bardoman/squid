@@ -1,8 +1,7 @@
-$myXMLData =
 <?xml version='1.0' encoding='UTF-8'?>
 <note>
 <to>Buckwheat</to>
 <from>Bardoman</from>
 <heading>whodat?</heading>
 <body>Don't sneeze on the bee's knees</body>
-</note>"; 
+</note> 
