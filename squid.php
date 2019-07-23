@@ -55,6 +55,11 @@ foreach($Nxml->URL[0]->A->attributes() as $a => $b) {
     echo "<br>";
     echo "<A HREF=",$b,">Proverbs</A>";
 }
+echo "<br>";
+echo "9";
+echo "<br>";
+
+echo "<A HREF=",$Nxml->URL[0]->A[0]['HREF'],">",$Nxml->URL->A,"</A>";
 
 
 
