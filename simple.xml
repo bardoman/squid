@@ -1,11 +1,68 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<note>
-<to>Buckwheat</to>
-<from>Bardoman</from>
-<heading>whodat?</heading>
-<body>Don't sneeze on the bee's knees</body>
-<URL>
-  <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
-</URL>
-  
-</note> 
+<squid>
+  <node>
+    <comment>
+      This is a comment.
+    </comment>
+    <links>
+      <link>
+        1
+      </link>
+      <link>
+        2
+      </link>
+    </links>
+    <URL>
+      <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
+    </URL>
+  </node>
+  <node>
+    <comment>
+      This is a comment.
+    </comment>
+    <links>
+      <link>
+        1
+      </link>
+      <link>
+        2
+      </link>
+    </links>
+    <URL>
+      <A HREF="http://bardoman.sdf-us.org/BuddhistMaxims.txt">BuddhistMaxims</A>
+    </URL>
+  </node>
+  <node>
+    <comment>
+      This is a comment.
+    </comment>
+    <links>
+      <link>
+        1
+      </link>
+      <link>
+        2
+      </link>
+    </links>
+    <URL>
+      <A HREF="http://bardoman.sdf-us.org/taichiclassics.txt">taichiclassics</A>
+    </URL>
+  </node>
+  <node>
+    <comment>
+      This is a comment.
+    </comment>
+    <links>
+      <link>
+        1
+      </link>
+      <link>
+        2
+      </link>
+    </links>
+    <URL>
+      <A HREF="http://bardoman.sdf-us.org/40verses.txt">40verses</A>
+    </URL>
+  </node>
+
+</squid>
