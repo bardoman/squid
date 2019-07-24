@@ -43,11 +43,20 @@ echo "<br>";
 foreach($xmlElem->node as $node)
 {
  echo "Title=",$node->name,"<br>";
+  echo "Comment=",$node->comment,"<br>";
   echo "Links=",$node->links,"<br>";
- echo "Task priority=",$node->task->priority,"<br>";
-  echo "Task startDate=",$node->task->startDate,"<br>";
-   echo "Task endDate=",$node->task->endDate,"<br>";
 
+  if ( !$node->task->__toString() ) {
+    print "No task";
+  }
+  else
+  {
+   echo "Task priority=",$node->task->priority,"<br>";
+   echo "Task startDate=",$node->task->startDate,"<br>";
+   echo "Task endDate=",$node->task->endDate,"<br>";
+  }
+
+  echo "<br>";
 
 
     foreach($node->URL as $url)
