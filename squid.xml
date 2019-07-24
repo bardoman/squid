@@ -12,27 +12,11 @@
     <name>
       Node0
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
-    </task>
     <comment>
-      This is a comment..
+      This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org">http://bardoman.sdf-us.org/</A>
@@ -41,33 +25,16 @@
     <URL>
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
-
   </node>
   <node>
     <name>
       Node1
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
-    </task>
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/BuddhistMaxims.txt">BuddhistMaxims</A>
@@ -77,36 +44,17 @@
     <name>
       Node2
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
-    </task>
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+        1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/taichiclassics.txt">taichiclassics</A>
     </URL>
   </node>
   <node>
-    <name>
-      Node3
-    </name>
     <task>
       <priority>
         High/Mid/Low/Junk
@@ -117,16 +65,16 @@
       <endDate> 07/24/2019
       </endDate>
     </task>
+
+    <name>
+      Node3
+    </name>
+
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/40verses.txt">40verses</A>
