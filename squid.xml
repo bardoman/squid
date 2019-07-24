@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <squid>
+  <Header>
+    <name>
+      squid
+    </name>
+    <abstract>
+      first squid
+    </abstract>
+  </Header>
   <node>
+    <name>
+      Node0
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+    </task>
     <comment>
       This is a comment..
     </comment>
@@ -13,10 +35,29 @@
       </link>
     </links>
     <URL>
+      <A HREF="http://bardoman.sdf-us.org">http://bardoman.sdf-us.org/</A>
+    </URL>
+
+    <URL>
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
+
   </node>
   <node>
+    <name>
+      Node1
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
@@ -33,6 +74,20 @@
     </URL>
   </node>
   <node>
+    <name>
+      Node2
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
@@ -49,6 +104,19 @@
     </URL>
   </node>
   <node>
+    <name>
+      Node3
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate> 07/24/2019
+      </endDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
