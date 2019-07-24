@@ -9,6 +9,7 @@
     </abstract>
   </Header>
   <node>
+<<<<<<< HEAD
     <title>
       Node1
     </title>
@@ -25,6 +26,21 @@
       <doneDate>
         07/24/2019
       </doneDate>
+=======
+    <name>
+      Node0
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+>>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
     </task>
     <comment>
       This is a comment..
@@ -38,10 +54,16 @@
       </link>
     </links>
     <URL>
+      <A HREF="http://bardoman.sdf-us.org">http://bardoman.sdf-us.org/</A>
+    </URL>
+
+    <URL>
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
+
   </node>
   <node>
+<<<<<<< HEAD
     <title>
       Node1
     </title>
@@ -58,6 +80,21 @@
       <doneDate>
         07/24/2019
       </doneDate>
+=======
+    <name>
+      Node1
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+>>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
     </task>
     <comment>
       This is a comment.
@@ -75,6 +112,7 @@
     </URL>
   </node>
   <node>
+<<<<<<< HEAD
     <title>
       Node2
     </title>
@@ -91,6 +129,21 @@
       <doneDate>
         07/24/2019
       </doneDate>
+=======
+    <name>
+      Node2
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate>
+        07/24/2019
+      </endDate>
+>>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
     </task>
     <comment>
       This is a comment.
@@ -108,6 +161,7 @@
     </URL>
   </node>
   <node>
+<<<<<<< HEAD
     <title>
       Node3
     </title>
@@ -124,6 +178,20 @@
       <doneDate>
         07/24/2019
       </doneDate>
+=======
+    <name>
+      Node3
+    </name>
+    <task>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <startDate>
+        07/24/2019
+      </startDate>
+      <endDate> 07/24/2019
+      </endDate>
+>>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
     </task>
     <comment>
       This is a comment.
