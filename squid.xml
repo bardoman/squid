@@ -9,49 +9,14 @@
     </abstract>
   </Header>
   <node>
-<<<<<<< HEAD
-    <title>
-      Node1
-    </title>
-    <task>
-      <boolean>
-        Yes/No
-      </boolean>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <createDate>
-        07/24/2019
-      </createDate>
-      <doneDate>
-        07/24/2019
-      </doneDate>
-=======
     <name>
       Node0
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
->>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
-    </task>
     <comment>
-      This is a comment..
+      This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org">http://bardoman.sdf-us.org/</A>
@@ -60,128 +25,36 @@
     <URL>
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
-
   </node>
   <node>
-<<<<<<< HEAD
-    <title>
-      Node1
-    </title>
-    <task>
-      <boolean>
-        Yes/No
-      </boolean>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <createDate>
-        07/24/2019
-      </createDate>
-      <doneDate>
-        07/24/2019
-      </doneDate>
-=======
     <name>
       Node1
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
->>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
-    </task>
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/BuddhistMaxims.txt">BuddhistMaxims</A>
     </URL>
   </node>
   <node>
-<<<<<<< HEAD
-    <title>
-      Node2
-    </title>
-    <task>
-      <boolean>
-        Yes/No
-      </boolean>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <createDate>
-        07/24/2019
-      </createDate>
-      <doneDate>
-        07/24/2019
-      </doneDate>
-=======
     <name>
       Node2
     </name>
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate>
-        07/24/2019
-      </endDate>
->>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
-    </task>
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+        1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/taichiclassics.txt">taichiclassics</A>
     </URL>
   </node>
   <node>
-<<<<<<< HEAD
-    <title>
-      Node3
-    </title>
-    <task>
-      <boolean>
-        Yes/No
-      </boolean>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <createDate>
-        07/24/2019
-      </createDate>
-      <doneDate>
-        07/24/2019
-      </doneDate>
-=======
-    <name>
-      Node3
-    </name>
     <task>
       <priority>
         High/Mid/Low/Junk
@@ -191,18 +64,17 @@
       </startDate>
       <endDate> 07/24/2019
       </endDate>
->>>>>>> d6ea04d96ba555734666aefc7dbd6ffb8419b0b9
     </task>
+
+    <name>
+      Node3
+    </name>
+
     <comment>
       This is a comment.
     </comment>
     <links>
-      <link>
-        1
-      </link>
-      <link>
-        2
-      </link>
+      1,2
     </links>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/40verses.txt">40verses</A>
