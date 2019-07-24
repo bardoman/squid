@@ -1,6 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <squid>
+  <Header>
+    <name>
+      squid
+    </name>
+    <abstract>
+      first squid
+    </abstract>
+  </Header>
   <node>
+    <title>
+      Node1
+    </title>
+    <task>
+      <boolean>
+        Yes/No
+      </boolean>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <createDate>
+        07/24/2019
+      </createDate>
+      <doneDate>
+        07/24/2019
+      </doneDate>
+    </task>
     <comment>
       This is a comment..
     </comment>
@@ -17,6 +42,23 @@
     </URL>
   </node>
   <node>
+    <title>
+      Node1
+    </title>
+    <task>
+      <boolean>
+        Yes/No
+      </boolean>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <createDate>
+        07/24/2019
+      </createDate>
+      <doneDate>
+        07/24/2019
+      </doneDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
@@ -33,6 +75,23 @@
     </URL>
   </node>
   <node>
+    <title>
+      Node2
+    </title>
+    <task>
+      <boolean>
+        Yes/No
+      </boolean>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <createDate>
+        07/24/2019
+      </createDate>
+      <doneDate>
+        07/24/2019
+      </doneDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
@@ -49,6 +108,23 @@
     </URL>
   </node>
   <node>
+    <title>
+      Node3
+    </title>
+    <task>
+      <boolean>
+        Yes/No
+      </boolean>
+      <priority>
+        High/Mid/Low/Junk
+      </priority>
+      <createDate>
+        07/24/2019
+      </createDate>
+      <doneDate>
+        07/24/2019
+      </doneDate>
+    </task>
     <comment>
       This is a comment.
     </comment>
