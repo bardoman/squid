@@ -8,10 +8,7 @@
       first squid
     </abstract>
   </Header>
-  <node>
-    <name>
-      Node0
-    </name>
+  <node name='node 0'>
     <comment>
       This is a comment.
     </comment>
@@ -26,10 +23,8 @@
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
   </node>
-  <node>
-    <name>
-      Node1
-    </name>
+  <node name='node 1'>
+    
     <comment>
       This is a comment.
     </comment>
@@ -40,10 +35,8 @@
       <A HREF="http://bardoman.sdf-us.org/BuddhistMaxims.txt">BuddhistMaxims</A>
     </URL>
   </node>
-  <node>
-    <name>
-      Node2
-    </name>
+  <node name='node 2'>
+    
     <comment>
       This is a comment.
     </comment>
@@ -54,7 +47,7 @@
       <A HREF="http://bardoman.sdf-us.org/taichiclassics.txt">taichiclassics</A>
     </URL>
   </node>
-  <node>
+  <node name='node3'>
     <task>
       <priority>
         High/Mid/Low/Junk
@@ -65,10 +58,6 @@
       <endDate> 07/24/2019
       </endDate>
     </task>
-
-    <name>
-      Node3
-    </name>
 
     <comment>
       This is a comment.

@@ -4,7 +4,7 @@ $xmlElem=simplexml_load_file("./squid.xml") or die("Error: Cannot create object"
 
 foreach($xmlElem->node as $node)
 {
- echo "Title=",$node->name,"<br>";
+ echo "Node name=",$node[name],"<br>";
   echo "Comment=",$node->comment,"<br>";
   echo "Links=",$node->links,"<br>";
 
