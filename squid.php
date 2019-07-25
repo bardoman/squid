@@ -25,5 +25,22 @@ foreach($xmlElem->node as $node)
         echo "<A HREF=",$url->A[0]['HREF'],">",$url->A,"</A><br>";
     }
     echo "<br><br>";
+  }
+
+foreach($xmlElem->logicGroup as $logicGroup)
+{
+    echo "logicGroup name=",$logicGroup[name],"<br>";
+
+    foreach($logicGroup->state as $state)
+    {
+        echo "state name=", $state[name],"<br>"; 
+
+         foreach($state->var as $var)
+         {
+             echo "var name=",$var[key]," value=", $var[value],"<br>";
+         }
+         echo "<br>";
+    }
+    echo "<br>";
 }
 ?> 
