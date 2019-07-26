@@ -27,6 +27,8 @@ foreach($xmlElem->node as $node)
     echo "<br><br>";
   }
 
+$testAray;
+
 foreach($xmlElem->logicGroup as $logicGroup)
 {
     echo "logicGroup name=",$logicGroup[name],"<br>";
@@ -36,11 +38,19 @@ foreach($xmlElem->logicGroup as $logicGroup)
         echo "state name=", $state[name],"<br>"; 
 
          foreach($state->var as $var)
-         {
-             echo "var name=",$var[key]," value=", $var[value],"<br>";
+         {  
+             $key=(string) $var[key];
+             $val=(string) $var[value];
+             echo "var name=",$key," value=", $val,"<br>";
+            
+             $testAray[$key]=$val;            
          }
          echo "<br>";
     }
     echo "<br>";
 }
+
+print_r($testAray,  FALSE );
+
+
 ?> 

@@ -75,36 +75,36 @@
 
   <logicGroup name="logicGroup0">
     <state name="state0">
-      <var key="tag1" value="1" />
-      <var key="tag2" value="2" />
-      <var key="tag3" value="3" />
+      <var key="0tag1" value="1" />
+      <var key="0tag2" value="2" />
+      <var key="0tag3" value="3" />
     </state>
     <state name="state1">
-      <var key="tag1" value="4" />
-      <var key="tag2" value="5" />
-      <var key="tag3" value="6" />
+      <var key="0tag4" value="4" />
+      <var key="0tag5" value="5" />
+      <var key="0tag6" value="6" />
     </state>
     <state name="state2">
-      <var key="tag1" value="7" />
-      <var key="tag2" value="8" />
-      <var key="tag3" value="9" />
+      <var key="0tag7" value="7" />
+      <var key="0tag8" value="8" />
+      <var key="0tag9" value="9" />
     </state>
   </logicGroup>
-  <logicGroup name="logicGroup1">
+ <logicGroup name="logicGroup1">
     <state name="state0">
-      <var key="tag1" value="1" />
-      <var key="tag2" value="2" />
-      <var key="tag3" value="3" />
+      <var key="1tag1" value="1" />
+      <var key="1tag2" value="2" />
+      <var key="1tag3" value="3" />
     </state>
     <state name="state1">
-      <var key="tag1" value="4" />
-      <var key="tag2" value="5" />
-      <var key="tag3" value="6" />
+      <var key="1tag4" value="4" />
+      <var key="1tag5" value="5" />
+      <var key="1tag6" value="6" />
     </state>
     <state name="state2">
-      <var key="tag1" value="7" />
-      <var key="tag2" value="8" />
-      <var key="tag3" value="9" />
+      <var key="1tag7" value="7" />
+      <var key="1tag8" value="8" />
+      <var key="1tag9" value="9" />
     </state>
   </logicGroup>
    
