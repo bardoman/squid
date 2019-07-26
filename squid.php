@@ -46,6 +46,13 @@ foreach($xmlElem->logicGroup as $logicGroup)
              $testAray[$key]=$val;            
          }
          echo "<br>";
+
+         foreach($state->oper as $oper)
+         {  
+             $val=(string) $oper[value];
+             echo "oper value=", $val,"<br>";
+                     }
+         echo "<br>";
     }
     echo "<br>";
 }
