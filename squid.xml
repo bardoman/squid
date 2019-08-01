@@ -18,15 +18,11 @@
     <URL>
       <A HREF="http://bardoman.sdf-us.org">http://bardoman.sdf-us.org/</A>
     </URL>
-
     <URL>
       <A HREF="http://bardoman.sdf-us.org/Proverbs.txt">Proverbs</A>
     </URL>
   </node>
   <node name="node 1">
-    
-
-
     <comment>
       This is a comment.
     </comment>
@@ -38,9 +34,6 @@
     </URL>
   </node>
   <node name="node 2">
-    
-
-
     <comment>
       This is a comment.
     </comment>
@@ -52,29 +45,31 @@
     </URL>
   </node>
   <node name="node3">
-    <task>
-      <priority>
-        High/Mid/Low/Junk
-      </priority>
-      <startDate>
-        07/24/2019
-      </startDate>
-      <endDate> 07/24/2019
-      </endDate>
-    </task>
-
     <comment>
       This is a comment.
     </comment>
     <links>
       1,2
     </links>
+    <tasks>
+      0
+    </tasks>
     <URL>
       <A HREF="http://bardoman.sdf-us.org/40verses.txt">40verses</A>
     </URL>
   </node>
   
 
+  <task name="0">
+    <priority>
+        High/Mid/Low/Junk
+    </priority>
+    <startDate>
+        07/24/2019
+    </startDate>
+    <endDate> 07/24/2019
+    </endDate>
+  </task>
 
   <logicGroup name="logicGroup0">
     <state name="state0">
@@ -117,6 +112,7 @@
     </state>
   </logicGroup>
    
+
 
 
 
