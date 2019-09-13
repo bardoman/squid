@@ -1,0 +1,46 @@
+
+{"Header":
+{"name":"\n squid\n ","abstract":"\n first squid\n "},
+"node":[{
+"@attributes":{"name":"node 0"},"comment":"\n This is a comment.\n ","links":"\n 1,2\n ","URL":[{"A":"http:\/\/bardoman.sdf-us.org\/"},{"A":"Proverbs"}]},{
+"@attributes":{"name":"node 1"},"comment":"\n This is a comment.\n ","links":"\n 1,2\n ","URL":{"A":"BuddhistMaxims"}},{
+"@attributes":{"name":"node 2"},"comment":"\n This is a comment.\n ","links":"\n 1,2\n ","URL":{"A":"taichiclassics"}},{
+"@attributes":{"name":"node3"},"comment":"\n This is a comment.\n ","links":"\n 1,2\n ","tasks":"\n 0\n ","URL":{"A":"40verses"}
+}],
+"task":{
+"@attributes":{"name":"0"},"priority":"\n High\/Mid\/Low\/Junk\n ","startDate":"\n 07\/24\/2019\n ","endDate":" 07\/24\/2019\n "},
+"logicGroup":[{
+"@attributes":{"name":"logicGroup0"},"state":[{
+"@attributes":{"name":"state0"},"var":[{
+"@attributes":{"key":"0tag1","value":"1"}},{
+"@attributes":{"key":"0tag2","value":"2"}},{
+"@attributes":{"key":"0tag3","value":"3"}}],"oper":{
+"@attributes":{"value":"AND"}}},{
+"@attributes":{"name":"state1"},"var":[{
+"@attributes":{"key":"0tag4","value":"4"}},{
+"@attributes":{"key":"0tag5","value":"5"}},{
+"@attributes":{"key":"0tag6","value":"6"}}],"oper":{
+"@attributes":{"value":"OR"}}},{
+"@attributes":{"name":"state2"},"var":[{
+"@attributes":{"key":"0tag7","value":"7"}},{
+"@attributes":{"key":"0tag8","value":"8"}},{
+"@attributes":{"key":"0tag9","value":"9"}}],"oper":{
+"@attributes":{"value":"XOR"}}}]},{
+"@attributes":{"name":"logicGroup1"},"state":[{
+"@attributes":{"name":"state0"},"var":[{
+"@attributes":{"key":"1tag1","value":"1"}},{
+"@attributes":{"key":"1tag2","value":"2"}},{
+"@attributes":{"key":"1tag3","value":"3"}}],"oper":{
+"@attributes":{"value":"ADD"}}},{
+"@attributes":{"name":"state1"},"var":[{
+"@attributes":{"key":"1tag4","value":"4"}},{
+"@attributes":{"key":"1tag5","value":"5"}},{
+"@attributes":{"key":"1tag6","value":"6"}}],
+"oper":{
+"@attributes":{"value":"SUB"}}},{
+"@attributes":{"name":"state2"},"var":[{
+"@attributes":{"key":"1tag7","value":"7"}},{
+"@attributes":{"key":"1tag8","value":"8"}},{
+"@attributes":{"key":"1tag9","value":"9"}}],"oper":{
+"@attributes":{"value":"MULT"}}}]}]}
+
